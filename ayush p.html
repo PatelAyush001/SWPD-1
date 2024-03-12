@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account Opening Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        form {
+            width: 50%;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 3px solid #ccc;
+            border-radius: 4px;
+            box-sizing: 10px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h2>Bank Account Opening Form</h2>
+    <form action="#" method="post">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="middlename">middle Name:</label>
+        <input type="text" id="middlename" name="fullname" required>
+
+        <label for="lastname">last Name:</label>
+        <input type="text" id="lastname" name="fullname" required>
+
+
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" required></textarea>
+
+        
+
+
+
+        <label for="education level">education level:</label>
+        <select id="education level" name="education level" required>
+            <option value="">Select education level</option>
+            <option value="deucation level">master degree</option>
+            <option value="education level">phd</option>
+        </select>
+
+        <label for="form of identification">form of identification:</label>
+        <select id="form of identification" name="form of identification" required>
+            <option value="">form of identification</option>
+            <option value="form of identification">aadhar card</option>
+            <option value="form of identification">pan card</option>
+        </select>
+
+        <label for="account information">account information:</label>
+        
+
+
+        <label for="account type">account type:</label>
+        <select id="account type" name="account type" required>
+            <option value="">account type</option>
+            <option value="account type">saving account</option>
+            <option value="account type">current account</option>
+        </select>
+
+        <label for="monthly income">monthly income:</label>
+        <input type="text" id="monthly income" name="monthly income" required>
+
+
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
